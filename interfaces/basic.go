@@ -8,9 +8,9 @@ func (hs HelpString) Help() string {
 	return string(hs)
 }
 
-type UnHelpString struct {}
+type UnHelpString struct{}
 
-func (uhs *UnHelpString) Help() string{}{
+func (uhs *UnHelpString) Help() string {
 	return "I cannot help you"
 }
 
