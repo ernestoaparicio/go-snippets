@@ -1,3 +1,3 @@
-module bitbucket.optum.com/dmsgoap/go-snippets
+module github.com/ernestoaparicio/go-snippets
 
 go 1.12

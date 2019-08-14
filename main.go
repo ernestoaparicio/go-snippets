@@ -1,7 +1,7 @@
 package main
 
-import "bitbucket.optum.com/dmsgoap/go-snippets/concurrent"
+import "github.com/ernestoaparicio/go-snippets/interfaces"
 
 func main() {
-	concurrent.RunSelectResult()
+	interfaces.RunBasic()
 }
