@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/ernestoaparicio/go-snippets/interfaces"
+	"github.com/ernestoaparicio/go-snippets/concurrent"
 )
 
 func main() {
-	interfaces.RunServeDefaultServeMux()
+	concurrent.RunBufferedChannel()
 }
