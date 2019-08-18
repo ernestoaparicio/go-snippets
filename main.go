@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-	concurrent.RunBufferedChannel()
+	concurrent.RunParallelLoopBuffChannel()
 }
