@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-	concurrent.RunParallelLoopBuffChannel()
+	concurrent.RunWaitGroup2()
 }
