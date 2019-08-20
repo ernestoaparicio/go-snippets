@@ -1,9 +1,7 @@
 package main
 
-import (
-	"github.com/ernestoaparicio/go-snippets/concurrent"
-)
+import "github.com/ernestoaparicio/go-snippets/reflection"
 
 func main() {
-	concurrent.RunChat()
+	reflection.RunSprint("test!")
 }
