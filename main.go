@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-	concurrent.RunWaitGroup2()
+	concurrent.RunChat()
 }
