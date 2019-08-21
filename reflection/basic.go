@@ -1,25 +1,34 @@
 package reflection
 
-import "strconv"
+import (
+	"fmt"
+	"strconv"
+)
 
-func RunSprint(x interface{}) string {
+// example not using reflection
+
+func RunSprint(x interface{}) {
+	var msg string
+
 	type stringer interface {
 		String() string
 	}
 
 	switch x := x.(type) {
 	case stringer:
-		return x.String()
+		msg = x.String()
 	case string:
-		return x
+		msg = x
 	case int:
-		return strconv.Itoa(x)
+		msg = strconv.Itoa(x)
 	case bool:
 		if x {
-			return "true"
+			msg = "true"
 		}
-		return "false"
+		msg = "false"
 	default:
-		return "???" // array, chan, func, map, pointer, slice, struct
+		msg = "???" // array, chan, func, map, pointer, slice, struct
 	}
+
+	fmt.Print(msg)
 }
