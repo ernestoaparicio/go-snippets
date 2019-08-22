@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-	concurrent.RunBasic2()
+	concurrent.RunThreadMemory()
 }
