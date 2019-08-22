@@ -1,8 +1,9 @@
 package main
 
-import "github.com/ernestoaparicio/go-snippets/reflection"
+import (
+	"github.com/ernestoaparicio/go-snippets/concurrent"
+)
 
 func main() {
-	num := 2
-	reflection.RunDouble(num)
+	concurrent.RunBasic2()
 }
