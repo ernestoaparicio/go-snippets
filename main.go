@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-	concurrent.RunThreadMemory()
+	concurrent.RunCondExample()
 }
