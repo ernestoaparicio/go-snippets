@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-	concurrent.RunCondExample()
+	concurrent.RunChanOwner()
 }
