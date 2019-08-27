@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-	concurrent.RunSelectBasic2()
+	concurrent.RunLeakExampleWithFix()
 }
