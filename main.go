@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-	concurrent.RunChanOwner()
+	concurrent.RunConfinementBytesBuffer()
 }
