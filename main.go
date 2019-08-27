@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-	concurrent.RunConfinementBytesBuffer()
+	concurrent.RunSelectBasic2()
 }
