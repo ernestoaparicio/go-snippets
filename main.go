@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-	concurrent.RunContextExample1WithDeadline()
+	concurrent.RunTimeOut1()
 }
