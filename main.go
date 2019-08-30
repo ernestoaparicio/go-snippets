@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-	concurrent.RunLeakExampleWithFix()
+	concurrent.RunContextExample1WithDeadline()
 }
