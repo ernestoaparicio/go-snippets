@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-	concurrent.RunDefineOrder2()
+	concurrent.RunRaceCondition()
 }
