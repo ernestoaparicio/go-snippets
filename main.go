@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-	concurrent.RunRaceCondition()
+	concurrent.RunUseContext()
 }
