@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-	concurrent.RunTimeOut1()
+	concurrent.RunDefineOrder2()
 }
